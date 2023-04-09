@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello World</title>
+        <title>About Kyle</title>
         <!-- hint: remember to change your page title! -->
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="#">
@@ -13,20 +13,43 @@
         <!-- Leaflet's JavaScript-->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     </head>
-    
     <body>
         <header>
+            <h1 id="title">Kyle Tsujimoto: A Little About Me</h1>
             <!-- hint: you can make a menu with other links here if you'd like -->
+            <div class="menu">
+                <h2 class="text" id="moreaboutme"><a href="index.html">Home</a></h2>
+                <h2 class="text" id="moreaboutme"><a href="more_about_me.html">More About Me</a></h2>
+            </div>
         </header>
-        
+
         <div class="main">
             <div id="contents">
                 <!-- hint: the majority of your assignment can go here -->
+                <h3 class="text">My Who and My Why</h3>
+                <p class="text">Hi! My name is Kyle Tsujimoto (he/him), and I'm a Physiological Science Major and Asian American Studies Minor at UCLA. I'm interested in learning more about digital mapmaking and ways I can best apply it to serve my community. I'm invested in issues in the Japanese American community, especially gentrification and community health, and I aspire to find and represent data from and by the community through digital maps.</p>
+                <div class = "row">
+                    <img class="image" src="images/headshotkyle.jpeg" alt="A headshot of Kyle in a UCLA hoodie">
+                    <img class="image" src="images/dogpic.JPG" alt="A picture with my late dog, Toby">
+                    <img class="image" src="images/family.png" alt="A family picture from this past summer">
+                </div>
+                <h3 class="text">My Interests</h3>
+                <ul class="text">
+                    <li>Running</li>
+                    <li><a href="https://www.instagram.com/kmtsujiphoto/?hl=en">Photography</a></li>
+                    <li>Eating Spicy Food</li>
+                </ul>
+                <h3 class="text">My Favorite Westwood Memories</h3>
+                <ol class="text">
+                    <li><a href="https://www.uchaonline.com/">University Cooperative Housing Association (UCHA)</a></li>
+                    <li>Bunche Hall</li>
+                    <li>Melnitz Hall</li>
+                </ol>
             </div>
             <div id="the_map"></div>
         </div>
         <div id="footer">
-            Copyright(2022)
+            <p class="text" id="copyright">Copyright(2023)</p>
         </div>
         <script src="js/init.js"></script>
     </body>

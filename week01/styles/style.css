@@ -4,7 +4,7 @@ body{
     /* grid-template-columns: 1fr;  */
     grid-auto-rows: auto 1fr;
     grid-template-areas: "header" "main_content" "footer";
-    background-color: aqua;
+    background-color: rgb(174, 214, 177);
     /* height: 100vh; */
 }
 
@@ -30,3 +30,71 @@ header{
 	height:80vh;
     grid-area: main_map;
 }
+
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#copyright{
+    text-align:right
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.image{
+    height: 400px;
+    margin: auto;
+}
+
+.menu{
+    background-color: rgba(18, 34, 24, 0.059);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#moreaboutme{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foods{
+    margin: auto;
+    height: 300px;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
