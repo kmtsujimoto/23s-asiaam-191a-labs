@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Map</title>
+        <!-- hint: remember to change your page title! -->
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 class="text" id="title">Food In Photo Form</h1>
+            <!-- hint: you can make a menu with other links here if you'd like -->
+            <div class="menu">
+                <h2 class="text" id="moreaboutme"><a href="index.html">Food Spots</a></h2>
+                <!--Links to a second page with additional info about me via the menu bar-->
+                <h2 class="text" id="moreaboutme"><a href="photos.html">Photos</a></h2>
+            </div>
+        </header>
+
+        <div class="main">
+            <div id="contents">
+                <!-- hint: the majority of your assignment can go here -->
+                <h3 class="text" id="caption">Just some unrelated food pics....</h3>
+                <div class = "row">
+                    <img class="image1" src="images/breakfastburrito.png" alt="A breakfast burrito">
+                    <img class="image1" src="images/curry.png" alt="Homemade japanese curry">
+                    <img class="image1" src="images/Taco.png" alt="A poke taco">
+                    <img class="image1" src="images/burrito.png" alt="More burritos!">
+                </div>
+                <div class = "row">
+                    <img class="image2" src="images/fries.png" alt="Kahlua pork fries">
+                    <img class="image2" src="images/uni.png" alt="Uni sushi">
+                    <img class="image2" src="images/ramen.png" alt="Homemade ramen">
+                    <img class="image2" src="images/karaage.png" alt="Chicken karaage">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright(2022)
+        </div>
+        <script src ="js/init.js"></script>
+        <!-- Javascript should be added at the bottom so it comes after Leaflet -->
+    </body>
+</html>
