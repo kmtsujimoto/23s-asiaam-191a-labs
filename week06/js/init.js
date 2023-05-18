@@ -15,7 +15,7 @@ function addMarker(data){
         L.circleMarker([data.lat,data.lng],{
             radius: 15,
             color: 'green'
-        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2>`)
+        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2><h3>${data['What is your highest level of educational attainment?']}</h3>`)
         createButtons(data.lat,data.lng,data['What is your hometown?'],'green')
         return
     }
@@ -23,7 +23,7 @@ function addMarker(data){
         L.circleMarker([data.lat,data.lng],{
             radius: 15,
             color: 'red'
-        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2>`)
+        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2><h3>${data['What is your highest level of educational attainment?']}</h3>`)
         createButtons(data.lat,data.lng,data['What is your hometown?'],'red')
         return
     }
@@ -31,7 +31,7 @@ function addMarker(data){
         L.circleMarker([data.lat,data.lng],{
             radius: 15,
             color: 'yellow'
-        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2>`)
+        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2><h3>${data['What is your highest level of educational attainment?']}</h3>`)
         createButtons(data.lat,data.lng,data['What is your hometown?'],'yellow')
         return
     }
@@ -39,7 +39,7 @@ function addMarker(data){
         L.circleMarker([data.lat,data.lng],{
             radius: 15,
             color: 'blue'
-        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2>`)
+        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2><h3>${data['What is your highest level of educational attainment?']}</h3>`)
         createButtons(data.lat,data.lng,data['What is your hometown?'],'blue')
         return
     }
@@ -47,7 +47,7 @@ function addMarker(data){
         L.circleMarker([data.lat,data.lng],{
             radius: 15,
             color: 'purple'
-        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2>`)
+        }).addTo(map).bindPopup(`<h2>${data['What is your hometown?']}</h2><h3>${data['What is your highest level of educational attainment?']}</h3>`)
         createButtons(data.lat,data.lng,data['What is your hometown?'],'purple')
         return
     }
