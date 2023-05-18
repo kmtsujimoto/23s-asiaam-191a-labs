@@ -30,7 +30,6 @@ function loadData(url){
         header: true,
         download: true,
         complete: results => {
-            //console.log(results.data)
             results.data.forEach(record=> {
                     if(record["If you have one, what is your favorite fruit?"]!=undefined) {
                         console.log(record);
